@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <script src='js/jquery-2.1.4.min.js'></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/backbone-min.js"></script>
+        <script src="js/underscore-min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Automaton Test Suite</a>
+				</div>
+				<!--div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div--><!--/.nav-collapse -->
+			</div>
+		</nav>
+		<br />
+		<br />
+		<br />
+		<div class="container">
+			<div class="well">
+                <label>Token : </label><input type="text" id="apitoken" />
+				<h3>Available Automatons</h3>
+				<table id="bot-list" class="table"></table>
+				<input type="button" value="New Session" onclick='new_session(prompt("Firstname",""),prompt("Lastname",""),prompt("Password",""))'/>
+				<h4>Active Automaton</h4>
+				<div id="bot" class="well">
+					<label>Session : </label><input type="text" class="bot-session" disabled="disabled" /><input id="loginbtn" type="button" value="Login" onclick='login_session()'/><input id="logoutbtn" type="button" value="Logout" onclick='logout_session()'/>
+					<div id="bot-status" class="well">
+						<label style="width:15%">Sim : </label><input style="width:50%" type="text" id="bot-status-sim" disabled="disabled"/><input type="button" onclick="copy_prompt('bot-status-sim')" value="Copy" /><br />
+						<label style="width:15%">Position : </label><input style="width:50%" type="text" id="bot-status-pos" disabled="disabled"/><input type="button" onclick="copy_prompt('bot-status-pos')" value="Copy" /><br />
+						<label style="width:15%">UUID: </label><input style="width:50%" type="text" id="bot-status-uuid" disabled="disabled"/><input type="button" onclick="copy_prompt('bot-status-uuid')" value="Copy" /><br />
+						<label style="width:15%">Pending IM's : </label><input style="width:50%" type="text" id="bot-status-ims" disabled="disabled"/><br />
+						<label style="width:15%">Pending Chat : </label><input style="width:50%" type="text" id="bot-status-chat" disabled="disabled"/><br />
+						<label style="width:15%">Dialogs : </label><input style="width:50%" type="text" id="bot-status-dialogs" disabled="disabled"/><br />
+						<label>TP Offers :</label><input type="text" id="bot-status-tpos" disabled="disabled"/>
+							<select id="tpos-select">
+								<option value="null">None</option>
+							</select>
+							<input id="tpo-accept" type="button" value="Accept" onclick='accept_tp()'/><input id="tpo-decline" type="button" value="Decline" onclick='decline_tp()'/>
+								<br />
+					</div>
+
+					<div class="well">
+						<input type="text" id="touch_key" /><input type="button" value="Touch" onclick='touch_obj()'/>
+					</div>
+
+					<div class="well">
+						<label style="width:10%">Folder : </label><input type="text" id="inv_folder" style="width:40%"/><br />
+						<label style="width:10%">Filter : </label><input type="text" id="inv_filter" style="width:40%"/><br />
+						<input type="button" value="Get Items" onclick='get_folder_items()'/><input type="button" value="Get Folders" onclick='get_folder_folders()'/>
+					</div>
+
+					<div role="tabpanel" class="well">
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs" role="tablist" id="chat_tabs">
+
+						</ul>
+
+						<!-- Tab panes -->
+						<div class="tab-content" id="chat_pages">
+
+						</div>
+
+						<div class="well">
+							<label style="width:8%">New IM : </label><br />
+							<label style="width:8%">UUID : </label><input id="new_im_uuid" type="text" style="width:40%" /><br />
+							<label style="width:8%">Message : </label><input id="new_im_msg" type="text" style="width:40%" /><br />
+							<input type="button" value="Send" onclick='new_im()'/>
+						</div>
+					</div>
+					<div class="well">
+						<div class="row">
+							<div class="col-md-2">
+								<select multiple class="form-control" id="agent_list" style="height:250px" onchange="agent_list_select()">
+								</select>
+							</div>
+							<div class="col-md-3">
+								<select multiple class="form-control" id="attachment_list" style="height:250px" onchange="attachment_list_select()">
+								</select>
+							</div>
+							<div class="col-md-7">
+								<div class="well">
+									<input type="button" value="Touch" id="attachment_touch" data="" onclick="touch_attachment(this)" /> <br />
+									<label style="width:30%">Key:</label><input disabled="disabled" type="text" id="attachment_key" /><br />
+									<label style="width:30%">Creator:</label><input disabled="disabled" type="text" id="attachment_creator" /><br />
+
+								<div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

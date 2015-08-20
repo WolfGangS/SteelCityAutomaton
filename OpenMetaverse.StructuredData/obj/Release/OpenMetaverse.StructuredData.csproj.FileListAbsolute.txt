@@ -1,0 +1,4 @@
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverse.StructuredData.dll
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverse.StructuredData.XML
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverse.StructuredData\obj\Release\OpenMetaverse.StructuredData.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverse.StructuredData\obj\Release\OpenMetaverse.StructuredData.dll

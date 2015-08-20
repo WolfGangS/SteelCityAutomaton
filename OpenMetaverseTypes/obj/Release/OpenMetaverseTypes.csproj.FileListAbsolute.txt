@@ -1,0 +1,3 @@
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverseTypes.dll
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverseTypes.XML
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverseTypes\obj\Release\OpenMetaverseTypes.dll

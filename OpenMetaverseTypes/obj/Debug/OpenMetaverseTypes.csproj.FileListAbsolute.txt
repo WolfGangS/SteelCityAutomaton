@@ -1,0 +1,10 @@
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\bin\OpenMetaverseTypes.dll
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\bin\OpenMetaverseTypes.pdb
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\OpenMetaverseTypes\obj\Debug\OpenMetaverseTypes.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\OpenMetaverseTypes\obj\Debug\OpenMetaverseTypes.dll
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\OpenMetaverseTypes\obj\Debug\OpenMetaverseTypes.pdb
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverseTypes.dll
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverseTypes.pdb
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverseTypes\obj\Debug\OpenMetaverseTypes.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverseTypes\obj\Debug\OpenMetaverseTypes.dll
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverseTypes\obj\Debug\OpenMetaverseTypes.pdb

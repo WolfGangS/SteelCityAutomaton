@@ -1,0 +1,11 @@
+tr.bot-offline .btn.bot-logout {
+    display: none;
+}
+
+tr.bot-online .btn.bot-login {
+    display: none;
+}
+
+tr.bot-online .btn.bot-delete{
+    display: none;
+}

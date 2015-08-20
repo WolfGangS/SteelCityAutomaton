@@ -1,0 +1,212 @@
+----==[login]==----
+{
+	"command":"login"
+}
+----==[logout]==----
+{
+	"command":"logout"
+}
+----==[get_dialogs]==----
+{
+	"command":"get_dialogs"
+}
+----==[play_sound]==----
+{
+	"uuid":null,
+	"command":"play_sound"
+}
+----==[set_home]==----
+{
+	"command":"set_home"
+}
+----==[upload_image_web]==----
+{
+	"url":null,
+	"name":null,
+	"timeout":0,
+	"command":"upload_image_web"
+}
+----==[touch]==----
+{
+	"uuid":null,
+	"command":"touch"
+}
+----==[sit]==----
+{
+	"uuid":null,
+	"command":"sit"
+}
+----==[stand]==----
+{
+	"command":"stand"
+}
+----==[get_status]==----
+{
+	"command":"get_status"
+}
+----==[get_region_data]==----
+{
+	"command":"get_region_data"
+}
+----==[get_object_list]==----
+{
+	"radius":0,
+	"command":"get_object_list"
+}
+----==[inv_load_folder]==----
+{
+	"path":null,
+	"command":"inv_load_folder"
+}
+----==[get_inv_folders]==----
+{
+	"path":null,
+	"filter":null,
+	"command":"get_inv_folders"
+}
+----==[get_inv_items]==----
+{
+	"path":null,
+	"filter":null,
+	"command":"get_inv_items"
+}
+----==[add_master]==----
+{
+	"uuid":null,
+	"command":"add_master"
+}
+----==[remove_master]==----
+{
+	"uuid":null,
+	"command":"remove_master"
+}
+----==[list_master]==----
+{
+	"command":"list_master"
+}
+----==[chat]==----
+{
+	"channel":0,
+	"message":null,
+	"chat_type":null,
+	"command":"chat"
+}
+----==[im]==----
+{
+	"uuid":null,
+	"message":null,
+	"command":"im"
+}
+----==[clear_chat_log]==----
+{
+	"command":"clear_chat_log"
+}
+----==[get_chat_log]==----
+{
+	"first":0,
+	"command":"get_chat_log"
+}
+----==[get_im_sessions]==----
+{
+	"command":"get_im_sessions"
+}
+----==[get_im_log]==----
+{
+	"first":0,
+	"uuid":null,
+	"command":"get_im_log"
+}
+----==[clear_im_session]==----
+{
+	"uuid":null,
+	"command":"clear_im_session"
+}
+----==[get_balance]==----
+{
+	"command":"get_balance"
+}
+----==[pay]==----
+{
+	"uuid":null,
+	"amount":0,
+	"description":null,
+	"command":"pay"
+}
+----==[turn_to]==----
+{
+	"x":0,
+	"y":0,
+	"z":0,
+	"command":"turn_to"
+}
+----==[start_crouching]==----
+{
+	"command":"start_crouching"
+}
+----==[stop_crouching]==----
+{
+	"command":"stop_crouching"
+}
+----==[start_running]==----
+{
+	"command":"start_running"
+}
+----==[stop_running]==----
+{
+	"command":"stop_running"
+}
+----==[start_autopilot]==----
+{
+	"x":0,
+	"y":0,
+	"z":0,
+	"range":0,
+	"local":false,
+	"command":"start_autopilot"
+}
+----==[stop_autopilot]==----
+{
+	"command":"stop_autopilot"
+}
+----==[start_jumping]==----
+{
+	"command":"start_jumping"
+}
+----==[stop_jumping]==----
+{
+	"command":"stop_jumping"
+}
+----==[start_flying]==----
+{
+	"command":"start_flying"
+}
+----==[stop_flying]==----
+{
+	"command":"stop_flying"
+}
+----==[get_client_settings]==----
+{
+	"command":"get_client_settings"
+}
+----==[offer_teleport]==----
+{
+	"user_id":null,
+	"command":"offer_teleport"
+}
+----==[teleport_home]==----
+{
+	"command":"teleport_home"
+}
+----==[get_teleport_offers]==----
+{
+	"command":"get_teleport_offers"
+}
+----==[acceptp_tp_offer]==----
+{
+	"user_id":null,
+	"command":"acceptp_tp_offer"
+}
+----==[decline_tp_offer]==----
+{
+	"user_id":null,
+	"command":"decline_tp_offer"}

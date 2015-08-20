@@ -1,0 +1,4 @@
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverse.dll
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverse.XML
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverse\obj\Release\OpenMetaverse.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverse\obj\Release\OpenMetaverse.dll

@@ -1,0 +1,10 @@
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\bin\OpenMetaverse.StructuredData.dll
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\bin\OpenMetaverse.StructuredData.pdb
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\OpenMetaverse.StructuredData\obj\Debug\OpenMetaverse.StructuredData.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\OpenMetaverse.StructuredData\obj\Debug\OpenMetaverse.StructuredData.dll
+C:\Users\Sebastian\Documents\Code\secondlife\libopenmetaverse\OpenMetaverse.StructuredData\obj\Debug\OpenMetaverse.StructuredData.pdb
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverse.StructuredData.dll
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\bin\OpenMetaverse.StructuredData.pdb
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverse.StructuredData\obj\Debug\OpenMetaverse.StructuredData.csprojResolveAssemblyReference.cache
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverse.StructuredData\obj\Debug\OpenMetaverse.StructuredData.dll
+C:\Users\Sebastian\Documents\Code\secondlife\bot-client\OpenMetaverse.StructuredData\obj\Debug\OpenMetaverse.StructuredData.pdb
